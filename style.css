@@ -1,0 +1,59 @@
+body
+{
+    background-image: url(Imagenes/Fondo.jpg);
+}
+header h1
+{
+    position: relative;
+    text-align: center;
+    top: 60px;
+    color: #999;
+    font-size: 60px;
+}
+main
+{
+    display: flex; /* es para espesificar que la box es el tipo flexible*/
+    flex-wrap: wrap; /*La propiedad flex-wrap de CSS especifica si los elementos "hijos" son obligados a permanecer en una misma línea o pueden fluir en varias líneas*/
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.tarjeta
+{
+    background-color: #ccc;
+    width: 500px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Buttons
+{
+    display: flex;
+}
+button
+{
+    all: initial;
+    font: inherit;
+    cursor: pointer;
+    user-select: none;
+
+    font-size: 20px;
+    color: #FFF;
+    background:   #810f7d;
+    text-align: center;
+    margin: 10px 5px;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    width: 100%;
+}
+input {
+    all: initial;
+    font: inherit;
+    background: transparent;
+    font-size: 25px;
+    color: #810f7d;
+    padding: 1em 0.5em;
+}
